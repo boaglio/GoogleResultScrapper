@@ -1,0 +1,10 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.jsoup:jsoup:1.9.2'
+    }
+}
+
+apply plugin: 'java'
